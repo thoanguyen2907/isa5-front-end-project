@@ -1,6 +1,6 @@
 # Frontend React Project
 
-This is your final project for the frontend module combine with react + redux + typescript
+This is your final project for the frontend module combine with react + redux toolkits + typescript
 
 ## Instructions
 
@@ -48,8 +48,7 @@ const [error, country] = useCountry('Suomi')
 
 ### Step 4
 
-- Set up all the redux boilerblate for the project
-- Everything related to redux stays in one folder: reducers, actions, store
+- Set up all the redux toolkits boilerblate for the project
 - Think about what reducer you're going to make and write them accordingly
 - Move the state that contains all countries to redux store
 
@@ -67,8 +66,3 @@ Take your time to implement the following features:
 
 [Demo](https://flagify.netlify.app/)
 
-Homepage:
-![homepage](media/home.png)
-
-Country page:
-![country page](media/country.png)
