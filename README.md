@@ -50,8 +50,8 @@ const [error, country, loading] = useCountry('Suomi')
 
 ### Step 4
 
-- Set up all the redux toolkit boilerblate for the project
-- Think about what reducer you're going to make and write them accordingly
+- Set up all the redux toolkit folders for the project
+- Think about what reducer and the elemements in the reducer
 - Apply redux toolkit to call API 
 - Move the state that contains all countries to redux store
 
