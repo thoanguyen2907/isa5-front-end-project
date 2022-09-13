@@ -1,6 +1,6 @@
 # Frontend React Project
 
-This is your final project for the frontend module combine with react + redux toolkits + typescript
+This is your final project for the frontend module combine with react + redux toolkit + typescript
 
 ## Instructions
 
@@ -9,6 +9,7 @@ This is your final project for the frontend module combine with react + redux to
 Fork this repo, then clone the **fork** to your machine and start working on it. You can open a pull request as soon as possible (no need to wait until finished)
 For styling, you can use whatever css solution you want: css, bootstrap, Material UI, etc.
 You need to install the css library yourself.
+Checkout the separate branch when you finish each step. 
 
 ### Step 1
 Write the codes in typescript
@@ -20,7 +21,7 @@ Write the first custom hook, that:
 
 ```
 // countries variable will be an array of 250 countries
-const [error, countries] = useCountries()
+const [error, countries, loading] = useCountries()
 ```
 
 Write the second custom hook, that:
@@ -30,13 +31,14 @@ Write the second custom hook, that:
 
 ```
 // country variable is an object, with details about Suomi (Finland)
-const [error, country] = useCountry('Suomi')
+const [error, country, loading] = useCountry('Suomi')
 ```
 
 ### Step 2
 
 - Use the first custom hook you created to fetch all the countries data
 - Render this data in a table, you can use html table tag, or component library like Material UI
+- Include loading while waiting to fetch data and error in case something is wrong
 
 
 ### Step 3
@@ -48,8 +50,9 @@ const [error, country] = useCountry('Suomi')
 
 ### Step 4
 
-- Set up all the redux toolkits boilerblate for the project
+- Set up all the redux toolkit boilerblate for the project
 - Think about what reducer you're going to make and write them accordingly
+- Apply redux toolkit to call API 
 - Move the state that contains all countries to redux store
 
 
